@@ -1,0 +1,59 @@
+header{
+    display: flex;
+    justify-content: space-between;
+}
+.sair{
+    background-image: url("../img/sair.png");
+     background-size: cover; 
+     width: 30px; 
+     height: 30px; 
+     border: none;
+     cursor: pointer;
+}
+
+.pub_icon {
+    width: 15px; /* Defina a largura desejada */
+    height: 15px; /* Defina a altura desejada */
+  }
+
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: antiquewhite;
+}
+
+.cabec_post{
+    display: flex;
+    
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+.img_post{
+    width: 40%;
+}
+h3 {
+    margin: 0;
+}
+
+p.author {
+    display: inline-block;
+    margin: 0;
+    margin-left: 10px;
+}
+
+p.content {
+    color: blue;
+}
+.actions {
+    margin-top: 10px;
+}
+
+.actions a {
+    display: inline-block;
+    margin-right: 10px;
+}
